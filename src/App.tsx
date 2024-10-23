@@ -3,7 +3,7 @@ import TaskList from './components/TaskList';
 import Footer from './components/Footer';
 import { Task } from './types/Task';
 import { useLocalStorage } from './Hooks/useLocalStorage';
-import './app.css';
+import './styles/App.css';
 
 const App: React.FC = () => {
   const [tasks, setTasks] = useLocalStorage<Task[]>('mydayapp-reactjs', []);
