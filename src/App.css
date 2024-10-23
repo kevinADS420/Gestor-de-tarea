@@ -1,0 +1,21 @@
+h1{
+    margin: 0;
+    color: #fff;
+}
+
+p{
+    margin: 0;
+    color: #fff;
+}
+
+.container-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.new-todo{
+    display: flex;
+    border-radius: 15px;
+    height: 40px;
+    width: 300px;
+}

@@ -1,0 +1,60 @@
+    <section className='container'>
+      <div className='card-container'>
+
+        <div className='card-title'>
+          <h1>My Day</h1>
+          <p>All my tasks in one place</p>
+        </div>
+
+        <div className='card-input'>
+          <input className='input' type="text" placeholder="Type new todo" />
+        </div>
+
+        <section className='container-tasks'>
+          <div className='tasks'>
+            <ul>
+              <ol>
+                <input type="checkbox" id="tarea1" className="custom-checkbox" />
+                <label htmlFor="tarea1">Aprender JavaScript</label>
+              </ol>
+              <ol>
+                <input type="checkbox" id="tarea2" className="custom-checkbox" />
+                <label htmlFor="tarea2">Aprender JavaScript</label>
+              </ol>
+              <ol>
+                <input type="checkbox" id="tarea3" className="custom-checkbox" />
+                <label htmlFor="tarea3">Aprender JavaScript</label>
+              </ol>
+              <ol>
+                <input type="checkbox" id="tarea4" className="custom-checkbox" />
+                <label htmlFor="tarea4">Aprender JavaScript</label>
+              </ol>
+              <ol>
+                <input type="checkbox" id="tarea5" className="custom-checkbox" />
+                <label htmlFor="tarea5">Aprender JavaScript</label>
+              </ol>
+              <ol>
+                <input type="checkbox" id="tarea6" className="custom-checkbox" />
+                <label htmlFor="tarea6">Aprender JavaScript</label>
+              </ol>
+            </ul>
+          </div>
+
+          <div  className='container-buttons'>
+            <div className='number-tasks'>
+              <div>0</div>
+              <div>item left</div>
+            </div>
+
+            <div className='buttons'>
+              <button> all </button>
+              <button> Pending </button>
+              <button> Clear completed </button>
+            </div>
+
+          </div>
+
+        </section>
+
+      </div>
+    </section>
