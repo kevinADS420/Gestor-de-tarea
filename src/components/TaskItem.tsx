@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Task } from '../types/Task';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons'; // Icono de "Eliminar"
-import '../styles/style.css'
+
 
 interface TaskItemProps {
   task: Task;
